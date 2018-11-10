@@ -38,7 +38,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "EloquentElastic\\Tests": "tests/"
+            "EloquentElastic\\Tests\\": "tests/"
         }
     },
     "extra": {
