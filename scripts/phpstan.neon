@@ -1,0 +1,13 @@
+includes:
+    - ../vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    level: 5
+    paths:
+        - src
+    ignoreErrors:
+        - '#Cannot call method getTotalHits\(\) on array\.#'
+        - '#Call to an undefined method Illuminate\\Database\\Query\\Builder::getWithTotalHits\(\)\.#'
+        - '#Parameter \#3 \$foreignKey of class EloquentElastic\\Relations\\HasManyMultipleColumns constructor expects string, array given\.#'
+        - '#Parameter \#4 \$localKey of class EloquentElastic\\Relations\\HasManyMultipleColumns constructor expects string, array given\.#'
+        - '#Access to an undefined property Illuminate\\Database\\ConnectionInterface::\$client\.#'
